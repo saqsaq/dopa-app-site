@@ -1,0 +1,14 @@
+:root { --bg:#0b0820; --card:#1b1640; --ink:#fff; --sub:rgba(255,255,255,.68); --pink:#ff3d8b; --gold:#ffc83d; }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--ink); font-family: -apple-system, "Hiragino Sans", "Noto Sans JP", sans-serif; line-height:1.8; }
+main { max-width: 760px; margin: 0 auto; padding: 40px 16px 80px; }
+h1 { font-size: 2rem; margin: 0 0 4px; }
+h2 { font-size: 1.2rem; margin-top: 2em; color: var(--gold); }
+a { color: var(--pink); }
+.sub { color: var(--sub); }
+.card { background: var(--card); border-radius: 18px; padding: 20px; margin: 16px 0; }
+.hero { text-align: center; }
+.hero img { width: 140px; height: 140px; }
+.logo { font-size: 3rem; font-weight: 900; background: linear-gradient(90deg,#ff3d8b,#ff8a2a,#ffc83d,#7dff6a,#2de2ff,#8b5cff); -webkit-background-clip: text; background-clip: text; color: transparent; }
+nav a { margin-right: 16px; }
+footer { margin-top: 48px; color: var(--sub); font-size: .85rem; }
